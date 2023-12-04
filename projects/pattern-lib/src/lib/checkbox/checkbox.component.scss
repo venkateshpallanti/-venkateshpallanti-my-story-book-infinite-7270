@@ -1,0 +1,82 @@
+@import '../../styles/variables';
+//@import "~bootstrap/dist/css/bootstrap.css";
+input[type=checkbox]:indeterminate::before {
+  content: "";
+  display: block;
+  color: $standard-background-color;
+  width: 16px;
+  height: 16px;
+  background-color: $brand-background-color;
+  border-color: $brand-background-color;
+  border-radius: 2px;
+}
+
+input[type=checkbox]:indeterminate::after {
+  content: "";
+  display: block;
+  width: 9px;
+  border: solid $standard-background-color;
+  border-width: 2px 0 0 0;
+  position: absolute;
+  top: 7px;
+  left: 4px;
+  padding: 1px;
+}
+
+input[type=checkbox] {
+  position: relative;
+  cursor: pointer;
+}
+
+input[type=checkbox]:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  border: 1px solid $input-border-color;
+  border-radius: 2px;
+  padding: 1px;
+  background-color: $standard-background-color;
+}
+
+input[type=checkbox]:checked:before {
+  background-color: $brand-background-color;
+  border-color: $brand-background-color;
+}
+
+input[type=checkbox]:disabled:checked:before {
+  background-color: $checkbox-selected-disabled-color;
+  border-color: $checkbox-selected-disabled-border-color;
+}
+
+input[type=checkbox]:indeterminate:disabled::before {
+  background-color: $checkbox-selected-disabled-color !important;
+  border-color: $checkbox-selected-disabled-border-color !important;
+}
+
+input[type=checkbox]:disabled:before {
+  border-color: $checkbox-selected-disabled-border-color;
+  background-color: $disabled-background-color;
+}
+
+input[type=checkbox]:checked:after {
+  content: "";
+  display: block;
+  width: 4.5px;
+  height: 8px;
+  border: 1px solid $standard-background-color;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) scale(1.4);
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  border-radius: 0.6px;
+}
+
+.tc-margin {
+  margin-left: 10px;
+  margin-top: 1px;
+  position: absolute;
+}

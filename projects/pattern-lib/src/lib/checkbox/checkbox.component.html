@@ -1,0 +1,10 @@
+<div class="cds--form-item cds--checkbox-wrapper tc-checkboxes-container">
+    <input #inputCheckbox class='tc-checkbox-control' type="checkbox" [checked]="checked" [disabled]="disabled" (change)="stateChanges($event)">
+    <label *ngIf="hideLabel" class="tc-margin">{{label}}</label>
+    <label class="cds--checkbox-label">
+        <i class="icon-checkmark"></i>
+        <span [ngClass]="{'cds--visually-hidden' : hideLabel}" class="cds--checkbox-label-text">
+            <ng-content></ng-content>
+        </span>
+    </label>
+</div>

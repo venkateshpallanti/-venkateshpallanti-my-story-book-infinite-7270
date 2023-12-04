@@ -1,0 +1,170 @@
+//@import '~bootstrap-icons/font/bootstrap-icons.css';
+// large Button
+.ztc-split-button-layout-lg {
+    display: inline-flex;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    min-width: 100px;
+    padding: var(--values-padding-sm, 12px) var(--values-padding-md, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--values-spacing-2-xs, 4px);
+    flex-shrink: 0;
+    border-radius: var(--values-radius-subtle, 4px);
+    border: none;
+}
+
+// small Button
+.ztc-split-button-layout-sm {
+    display: inline-flex;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    min-width: 50px;
+    padding: var(--values-padding-xs, 8px) var(--values-padding-sm, 12px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--values-spacing-2-xs, 4px);
+    flex-shrink: 0;
+    border-radius: var(--values-radius-subtle, 4px);
+    border: none;
+}
+
+.btn-label {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.bi-plus::before {
+    content: "\f4fe";
+    line-height: 19px;
+    font-weight: bold !important;
+    font-size: 18px;
+}
+
+.bi-caret-down-fill::before {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.icon-layout {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    padding: 5px 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    &.icon-prefix-disabled {
+        color: #4E5D75;
+    }
+
+    &.icon-postfix-disabled {
+        color: #4E5D75;
+    }
+}
+
+
+//disable button
+button[disabled] {
+    color: #4E5D75;
+    background: var(--interactive-bg-disabled, #DCDFE4);
+
+    .bi-plus::before {
+        color: #4E5D75;
+    }
+
+    .bi-caret-down-fill::before {
+        color: #4E5D75;
+    }
+}
+
+// primary
+.ztc-split-button-primary {
+    background: var(--interactive-bg-brand-default, #4A327C);
+    color: white;
+
+    &.ztc-split-button-primary:hover {
+        background: var(--interactive-bg-brand-hover, #210E48);
+    }
+
+    &.ztc-split-button-primary:disabled {
+        color: #4E5D75;
+        background: var(--interactive-bg-disabled, #DCDFE4);
+    }
+
+    &.ztc-split-button-primary:focus {
+        border: 1px solid var(--interactive-border-focus, #8B36F8);
+        background: var(--interactive-bg-brand-default, #4A327C);
+        /* Effects/focus */
+        box-shadow: 0px 0px 0px 2px rgba(139, 54, 248, 0.25);
+    }
+}
+
+//secondary
+.ztc-split-button-secondary {
+    border: 1px solid var(--interactive-border-neutral, #DCDFE4);
+    background: var(--interactive-bg-neutral-default, #F7F8F9);
+    color: #171717;
+
+    &.ztc-split-button-secondary:hover {
+        background: var(--interactive-bg-neutral-hover, #DCDFE4);
+    }
+
+    &.ztc-split-button-secondary:disabled {
+        color: #4E5D75;
+        background: var(--interactive-bg-disabled, #DCDFE4);
+    }
+
+    &.ztc-split-button-secondary:focus {
+        border: 1px solid var(--interactive-border-focus, #8B36F8);
+        background: var(--interactive-bg-neutral-default, #F7F8F9);
+        /* Effects/focus */
+        box-shadow: 0px 0px 0px 2px rgba(139, 54, 248, 0.25);
+    }
+
+    .bi-plus::before {
+        color: #171717;
+    }
+
+    .bi-caret-down-fill::before {
+        color: #171717;
+    }
+}
+
+//destructive
+.ztc-split-button-destructive {
+    border: 1px solid var(--interactive-border-error, #FCCAC3);
+    background: var(--interactive-bg-error-default, #FFEDEB);
+    color: #921706;
+
+    &.ztc-split-button-destructive:hover {
+        background: var(--interactive-bg-error-hover, #FCCAC3);
+    }
+
+    &.ztc-split-button-destructive:disabled {
+        color: #4E5D75;
+        background: var(--interactive-bg-disabled, #DCDFE4);
+    }
+
+    &.ztc-split-button-destructive:focus {
+        border: 1px solid var(--interactive-border-focus, #8B36F8);
+        background: var(--interactive-bg-error-default, #FFEDEB);
+        /* Effects/focus */
+        box-shadow: 0px 0px 0px 2px rgba(139, 54, 248, 0.25);
+    }
+
+    .bi-plus::before {
+        color: #921706;
+    }
+
+    .bi-caret-down-fill::before {
+        color: #921706;
+    }
+}
