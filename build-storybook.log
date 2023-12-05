@@ -1,6 +1,6 @@
 
 > design-system@0.0.0 build-storybook
-> ng run pattern-lib:build-storybook --output-dir C:\Users\VENKAT~1.INF\AppData\Local\Temp\chromatic--16288-sPkScWgE3gOP
+> ng run pattern-lib:build-storybook --output-dir C:\Users\VENKAT~1.INF\AppData\Local\Temp\chromatic--25004-PQ08TDdH7idW
 
 [0m
 [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
@@ -25,148 +25,148 @@ Node.js version : v18.10.0
 
 Operating system : Windows 10
 
-[10:38:37] No configuration file found, switching to CLI flags.
-[10:38:38] Using tsconfig file : D:\venkatesh\storybook\design-system\projects\pattern-lib\.storybook\tsconfig.json
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/.storybook/preview.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/public-api.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.component.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.module.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.service.ts
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/styles/variables.scss
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Button.stories.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/ButtonWithIcon.stories.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/checkbox.stories.ts
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Configure.mdx
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Dropdown.stories.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/reactive-form.component.ts
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.html
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.scss
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.ts
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.html
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.scss
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.ts
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.types.ts
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.html
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.scss
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.ts
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.html
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.scss
-[10:38:38] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.ts
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/accessibility.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/accessibility.svg
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/addon-library.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/APP_MODULE.PNG
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/assets.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/context.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/discord.svg
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/docs.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/figma-plugin.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/github.svg
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/IMG.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/PackageName.PNG
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/share.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/styling.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/testing.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/theming.png
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/tutorials.svg
-[10:38:38] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/youtube.svg
-[10:38:38] Searching package.json file
-[10:38:38] package.json file found
-[10:38:38] Processing package.json dependencies
-[10:38:38] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
-[10:38:38] README.md file found
-[10:38:38] Error during D:\venkatesh\storybook\design-system\CHANGELOG read
-[10:38:38] Continuing without CHANGELOG.md file
-[10:38:38] Error during D:\venkatesh\storybook\design-system\CONTRIBUTING read
-[10:38:38] Continuing without CONTRIBUTING.md file
-[10:38:38] Error during D:\venkatesh\storybook\design-system\LICENSE read
-[10:38:38] Continuing without LICENSE.md file
-[10:38:38] Error during D:\venkatesh\storybook\design-system\TODO read
-[10:38:38] Continuing without TODO.md file
-[10:38:38] Get dependencies data
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/.storybook/preview.ts
-[10:38:38] found          : preview
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/public-api.ts
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.component.ts
-[10:38:38] found          : PatternLibComponent
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.module.ts
-[10:38:38] found          : PatternLibModule
-[10:38:38]                : - imports:
-[10:38:38]                : 	- CommonModule
-[10:38:38]                : 	- FormsModule
-[10:38:38]                : 	- ReactiveFormsModule
-[10:38:38]                : - exports:
-[10:38:38]                : 	- PatternLibComponent
-[10:38:38]                : 	- ButtonComponent
-[10:38:38]                : 	- DropDownComponent
-[10:38:38]                : 	- CheckboxComponent
-[10:38:38]                : - declarations:
-[10:38:38]                : 	- PatternLibComponent
-[10:38:38]                : 	- ButtonComponent
-[10:38:38]                : 	- DropDownComponent
-[10:38:38]                : 	- CheckboxComponent
-[10:38:38]                : 	- SplitbuttonComponent
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.service.ts
-[10:38:38] found          : PatternLibService
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Button.stories.ts
-[10:38:38] found          : meta
-[10:38:38] found          : Story
-[10:38:38] found          : ButtonDefault
-[10:38:38] found          : ButtonDisable
-[10:38:38] found          : ButtonHover
-[10:38:38] found          : ButtonActive
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/ButtonWithIcon.stories.ts
-[10:38:38] found          : meta
-[10:38:38] found          : Story
-[10:38:38] found          : PrimaryButton
-[10:38:38] found          : SecondaryButton
-[10:38:38] found          : DestructiveButton
-[10:38:38] found          : DisabledButton
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/checkbox.stories.ts
-[10:38:38] found          : Story
-[10:38:38] found          : Indeterminate
-[10:38:38] found          : Checked
-[10:38:38] found          : UnChecked
-[10:38:38] found          : DisabledWithUnchecked
-[10:38:38] found          : DisabledWithChecked
-[10:38:38] found          : DisabledWithIndeterminateChecked
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Dropdown.stories.ts
-[10:38:38] found          : Template
-[10:38:38] found          : Basic
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/reactive-form.component.ts
-[10:38:38] found          : ReactiveFormsStory
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.ts
-[10:38:38] found          : ButtonComponent
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.ts
-[10:38:38] found          : CheckboxState
-[10:38:38] found          : CheckboxComponent
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.types.ts
-[10:38:38] found          : CheckboxValue
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.ts
-[10:38:38] found          : DropDownComponent
-[10:38:38] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.ts
-[10:38:38] found          : SplitbuttonComponent
-[10:38:38] -------------------
-[10:38:38] Project statistics 
-[10:38:38] - files      : 16
-[10:38:38] - module     : 1
-[10:38:38] - component  : 6
-[10:38:38] - injectable : 1
-[10:38:38] -------------------
-[10:38:38] Prepare components
-[10:38:38]  ButtonComponent has a templateUrl, include it
-[10:38:38]  ButtonComponent has styleUrls, include them
-[10:38:38]  CheckboxComponent has a templateUrl, include it
-[10:38:38]  CheckboxComponent has styleUrls, include them
-[10:38:38]  DropDownComponent has styles, include them
-[10:38:38]  SplitbuttonComponent has styleUrls, include them
-[10:38:38] Prepare modules
-[10:38:38] Prepare injectables
-[10:38:38] Prepare miscellaneous
-[10:38:38] Process documentation coverage report
-[10:38:38] Generating documentation in export format json
-[10:38:38] Documentation generated in projects/pattern-lib/ in 1.53 seconds
-info => Cleaning outputDir: C:\Users\VENKAT~1.INF\AppData\Local\Temp\chromatic--16288-sPkScWgE3gOP
+[10:40:40] No configuration file found, switching to CLI flags.
+[10:40:40] Using tsconfig file : D:\venkatesh\storybook\design-system\projects\pattern-lib\.storybook\tsconfig.json
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/.storybook/preview.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/public-api.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.component.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.module.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.service.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Button.stories.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/ButtonWithIcon.stories.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/checkbox.stories.ts
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Configure.mdx
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Dropdown.stories.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/reactive-form.component.ts
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/styles/variables.scss
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.html
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.scss
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.ts
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.html
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.scss
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.ts
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.html
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.scss
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.ts
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.types.ts
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.html
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.scss
+[10:40:40] Including      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.ts
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/accessibility.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/accessibility.svg
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/addon-library.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/APP_MODULE.PNG
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/assets.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/context.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/discord.svg
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/docs.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/figma-plugin.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/github.svg
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/IMG.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/PackageName.PNG
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/share.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/styling.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/testing.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/theming.png
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/tutorials.svg
+[10:40:40] Excluding      : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/assets/youtube.svg
+[10:40:40] Searching package.json file
+[10:40:40] package.json file found
+[10:40:40] Processing package.json dependencies
+[10:40:40] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[10:40:40] README.md file found
+[10:40:40] Error during D:\venkatesh\storybook\design-system\CHANGELOG read
+[10:40:40] Continuing without CHANGELOG.md file
+[10:40:40] Error during D:\venkatesh\storybook\design-system\CONTRIBUTING read
+[10:40:40] Continuing without CONTRIBUTING.md file
+[10:40:40] Error during D:\venkatesh\storybook\design-system\LICENSE read
+[10:40:40] Continuing without LICENSE.md file
+[10:40:40] Error during D:\venkatesh\storybook\design-system\TODO read
+[10:40:40] Continuing without TODO.md file
+[10:40:40] Get dependencies data
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/.storybook/preview.ts
+[10:40:40] found          : preview
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/public-api.ts
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.component.ts
+[10:40:40] found          : PatternLibComponent
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.module.ts
+[10:40:40] found          : PatternLibModule
+[10:40:40]                : - imports:
+[10:40:40]                : 	- CommonModule
+[10:40:40]                : 	- FormsModule
+[10:40:40]                : 	- ReactiveFormsModule
+[10:40:40]                : - exports:
+[10:40:40]                : 	- PatternLibComponent
+[10:40:40]                : 	- ButtonComponent
+[10:40:40]                : 	- DropDownComponent
+[10:40:40]                : 	- CheckboxComponent
+[10:40:40]                : - declarations:
+[10:40:40]                : 	- PatternLibComponent
+[10:40:40]                : 	- ButtonComponent
+[10:40:40]                : 	- DropDownComponent
+[10:40:40]                : 	- CheckboxComponent
+[10:40:40]                : 	- SplitbuttonComponent
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/pattern-lib.service.ts
+[10:40:40] found          : PatternLibService
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Button.stories.ts
+[10:40:40] found          : meta
+[10:40:40] found          : Story
+[10:40:40] found          : ButtonDefault
+[10:40:40] found          : ButtonDisable
+[10:40:40] found          : ButtonHover
+[10:40:40] found          : ButtonActive
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/ButtonWithIcon.stories.ts
+[10:40:40] found          : meta
+[10:40:40] found          : Story
+[10:40:40] found          : PrimaryButton
+[10:40:40] found          : SecondaryButton
+[10:40:40] found          : DestructiveButton
+[10:40:40] found          : DisabledButton
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/checkbox.stories.ts
+[10:40:40] found          : Story
+[10:40:40] found          : Indeterminate
+[10:40:40] found          : Checked
+[10:40:40] found          : UnChecked
+[10:40:40] found          : DisabledWithUnchecked
+[10:40:40] found          : DisabledWithChecked
+[10:40:40] found          : DisabledWithIndeterminateChecked
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/Dropdown.stories.ts
+[10:40:40] found          : Template
+[10:40:40] found          : Basic
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/stories/reactive-form.component.ts
+[10:40:40] found          : ReactiveFormsStory
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/button/button.component.ts
+[10:40:40] found          : ButtonComponent
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/dropdown/dropdown.component.ts
+[10:40:40] found          : DropDownComponent
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.component.ts
+[10:40:40] found          : CheckboxState
+[10:40:40] found          : CheckboxComponent
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/checkbox/checkbox.types.ts
+[10:40:40] found          : CheckboxValue
+[10:40:40] parsing        : D:/venkatesh/storybook/design-system/projects/pattern-lib/src/lib/splitbutton/splitbutton.component.ts
+[10:40:40] found          : SplitbuttonComponent
+[10:40:40] -------------------
+[10:40:40] Project statistics 
+[10:40:40] - files      : 16
+[10:40:40] - module     : 1
+[10:40:40] - component  : 6
+[10:40:40] - injectable : 1
+[10:40:40] -------------------
+[10:40:40] Prepare components
+[10:40:40]  ButtonComponent has a templateUrl, include it
+[10:40:40]  ButtonComponent has styleUrls, include them
+[10:40:40]  CheckboxComponent has a templateUrl, include it
+[10:40:40]  CheckboxComponent has styleUrls, include them
+[10:40:40]  DropDownComponent has styles, include them
+[10:40:40]  SplitbuttonComponent has styleUrls, include them
+[10:40:40] Prepare modules
+[10:40:40] Prepare injectables
+[10:40:40] Prepare miscellaneous
+[10:40:40] Process documentation coverage report
+[10:40:40] Generating documentation in export format json
+[10:40:40] Documentation generated in projects/pattern-lib/ in 0.601 seconds
+info => Cleaning outputDir: C:\Users\VENKAT~1.INF\AppData\Local\Temp\chromatic--25004-PQ08TDdH7idW
 
 info => Loading presets
 info Found existing addon "@storybook/addon-docs", skipping.
