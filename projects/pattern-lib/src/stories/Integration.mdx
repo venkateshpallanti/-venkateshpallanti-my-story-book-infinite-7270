@@ -15,6 +15,13 @@ import Accessibility from "./assets/accessibility.png";
 import Theming from "./assets/theming.png";
 import AddonLibrary from "./assets/addon-library.png";
 import PROCESS_IMG from "./assets/IMG.png";
+import Packagejosn from "./assets/packagejosn.png";
+import Moduleimport from "./assets/moduleimport.png";
+import Copypaste from "./assets/copypaste.png";
+import Paste from "./assets/paste.png";
+import Output from "./assets/output.png";
+import Storybookoutput from "./assets/storybookoutput.png";
+
 
 
 export const RightArrow = () => <svg 
@@ -33,28 +40,83 @@ export const RightArrow = () => <svg
   <path d="m11.1 7.35-5.5 5.5a.5.5 0 0 1-.7-.7L10.04 7 4.9 1.85a.5.5 0 1 1 .7-.7l5.5 5.5c.2.2.2.5 0 .7Z" />
 </svg>
 
-<Meta title="Storybook Packaging & Publishing Porcess" />
+<Meta title="How to Use Storybook" />
 
 <div className="sb-container">
-    <div className='sb-section-title'>
-       # Storybook Packaging & Publishing Porcess
-      For integrating storybook to any other angular applications, we converted storybook as an <b>NPM</b> and published at <b>NPM</b> reposotary and below is the process we followed.
-    </div>
-    <div className="sb-section">
-      <div className="sb-section-item">
-        <img
-          src={PROCESS_IMG}
+   <div className='sb-section-title'>
+      # Steps to Integrate
+      For integrating storybook to anyother angular applications, this are the steps to be followed
+      <ol>
+      <li>Run this command in Angular applications at root <i><b className="font-color">npm i @venkateshpallanti/my-story-book-infinite-7270</b></i></li>
+      <li>After installing the above storybook package your package.json should be updated like below</li>
+       <img
+          src={Packagejosn}
           alt="A wall of logos representing different styling technologies"
           width="auto" height="auto"
         />
-        <h4 className="sb-section-item-heading">This is the StoryBook Package Name</h4>
-        <p className="sb-section-item-paragraph">
-       
-        <a href="https://www.npmjs.com/package/@venkateshpallanti/my-story-book-infinite-7270">
-          <b>npm i @venkateshpallanti/my-story-book-infinite-7270</b>
-         </a>
-      </p>
-      </div>
+      <li>Go to <i><b className="font-color">your-angular-app/src/app/app.module.ts</b></i> and add the library import like below step</li>
+         <div>
+        <pre>
+        `import { PatternLibModule } from '@venkateshpallanti/my-story-book-infinite-7270';`
+        </pre>
+        </div>
+      <li>
+       <img
+          src={Moduleimport}
+          alt="A wall of logos representing different styling technologies"
+          width="auto" height="auto"
+        />
+      
+      </li>
+      <li>After completing step 4 we successfully integrated storybook package to Angular application</li>
+      <li>Now we have to add storybook components to Angular app component <b>i.e(app.component.ts)</b> </li>
+      <li>Copy the code snippet from storybook Docs like below</li>
+         <div>
+        <pre>
+           `<tc-splitbutton [primary]="true" [size]="'lg'" [label]="'Button'" [prefixIcon]="'plus'"`
+           `[postfixIcon]="'caret-down-fill'" [preFixIconDisabled]="false" [postFixIconDisabled]="false"></tc-splitbutton>`
+        </pre>
+        </div>
+        <img
+          src={Copypaste}
+          alt="A wall of logos representing different styling technologies"
+          width="auto" height="auto"
+        />
+        <div className="fontStyles"><b>Example for Button Component Integration</b></div>
+        <li>For integrated any component from storybook to Angular Application, Step 7 need to follow</li>
+        <li>Then paste the code in angular application it looks like below in angular application</li>
+             <img
+          src={Paste}
+          alt="A wall of logos representing different styling technologies"
+          width="auto" height="auto"
+        />
+
+            <li>Output for step 9 </li>
+             <img
+          src={Output}
+          alt="A wall of logos representing different styling technologies"
+          width="auto" height="auto"
+        />
+          <li>StoryBook and Angular having same outputs like mentioned below </li>
+          <table width="100%">
+          <tr>
+          <td width="50%">
+            <img
+          src={Storybookoutput}
+          alt="A wall of logos representing different styling technologies"
+          width="auto" height="auto"
+        />
+          </td>
+          <td width="50%">
+            <img
+          src={Output}
+          alt="A wall of logos representing different styling technologies"
+          width="auto" height="auto"
+        />
+          </td>
+          </tr>
+          </table>
+    </ol> 
     </div>
 </div>
 
@@ -158,7 +220,10 @@ export const RightArrow = () => <svg
   .font-color {
     color:red;
   }
-
+ .fontStyles{
+  font-size:20px;
+  margin-bottom:10px;
+  }
   .sb-addon-img img {
     width: 650px;
     transform: rotate(-15deg);

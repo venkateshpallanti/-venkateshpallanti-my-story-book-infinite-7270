@@ -8,7 +8,7 @@ const meta: Meta<SplitbuttonComponent> = {
   component: SplitbuttonComponent,
   parameters: {
     docs: {
-      inlineStories: true, // This can be set to true or false based on your preference
+      inlineStories: true,  // This can be set to true or false based on your preference
     },
   },
   tags: ['autodocs'],

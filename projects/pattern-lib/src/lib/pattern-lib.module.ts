@@ -17,7 +17,7 @@ import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
     CommonModule,FormsModule,ReactiveFormsModule,
   ],
   exports: [
-    PatternLibComponent,ButtonComponent,DropDownComponent,CheckboxComponent
+    PatternLibComponent,ButtonComponent,DropDownComponent,CheckboxComponent,SplitbuttonComponent
   ]
 })
 export class PatternLibModule { }

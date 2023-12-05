@@ -8,4 +8,5 @@ export * from './lib/pattern-lib.module';
 export * from './lib/button/button.component';
 export * from './lib/dropdown/dropdown.component';
 export * from './lib/checkbox/checkbox.component';
+export * from './lib/splitbutton/splitbutton.component';
 

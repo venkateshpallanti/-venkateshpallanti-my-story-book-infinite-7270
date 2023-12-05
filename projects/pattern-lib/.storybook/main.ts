@@ -8,7 +8,6 @@ const config: StorybookConfig = {
     "@storybook/addon-interactions",
     "@storybook/addon-docs",
     "@whitespace/storybook-addon-html",
-    "chromatic"
   ],
   framework: {
     name: "@storybook/angular",

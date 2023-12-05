@@ -462,7 +462,7 @@
         },
         {
             "name": "DropDownComponent",
-            "id": "component-DropDownComponent-e77fcf7bd2daa9ef44073d06b62529c3a9efd20bd6e8aabb39305c82bc783724b23a20ad3166ab085fc97399b467d03623aade25915a2cca647f811a90977d44",
+            "id": "component-DropDownComponent-0e3b8fc1b50eba8b53fa44c56e37b7c477a09c90a8973c34bbce735314ab3a96c4eb93bdb0b01c28a4e7abc56afdcefc3fd36fc635137b14a3baa23ed3ea347e",
             "file": "projects/pattern-lib/src/lib/dropdown/dropdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -474,7 +474,7 @@
             "styles": [
                 "\n  .dropdown-container {\n    display: flex;\n    align-items: center;\n  \n  }\n  select {\n    background: none;\n    margin-right: 10px;\n    height :35px;\n    width : 100%;\n    border: 1px solid #c9c992;\n    \n  }\n  .clear-button {\n    background: none;\n    border: none;\n    display: flex;\n    right :50px;\n    padding: 3px 5px 3px 0;\n    cursor: pointer;\n    color: #666;\n    font-size: inherit;\n    margin-left: -50px;\n  }\n  .fa fa-close{\n    display: flex;\n    right :50px;\n  }\n\n  .select :focus{\n    border: 1px solid green;\n  }\n  .medium{\n    width:50%;\n  }\n  .small{\n    width:40%;\n  }\n  .large{\n    width:100%;\n  }\n  \n"
             ],
-            "template": "  <link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n  <!-- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css\" integrity=\"sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd\" crossorigin=\"anonymous\"> -->\n  <!-- <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\"> -->\n  <h4>{{label}}</h4>\n  <div class=\"dropdown-container col-md-1\">\n\n  <select\n     [(ngModel)]=\"selectedOption\"\n     (ngModelChange)=\"onModelChange($event)\"\n     [ngClass]=\"size\"\n     >\n    <option value=\"empty\"></option>\n    <option *ngFor=\"let option of options\" [value]=\"option\">{{option}}</option>\n  </select>\n  <button *ngIf=\"selectedOption\" (click)=\"clearSelection()\" class=\"clear-button\">\n  <i class=\"fa fa-close\" style=\"font-size:16px\"></i>\n  </button>\n</div>\n\n",
+            "template": "  <link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n  <!-- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css\" integrity=\"sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd\" crossorigin=\"anonymous\"> -->\n  <!-- <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\"> -->\n  <h4>{{label}}</h4>\n  <div class=\"dropdown-container col-md-12\">\n  <select\n     [(ngModel)]=\"selectedOption\"\n     (ngModelChange)=\"onModelChange($event)\"\n     [ngClass]=\"size\"\n     >\n    <option value=\"empty\"></option>\n    <option *ngFor=\"let option of options\" [value]=\"option\">{{option}}</option>\n  </select>\n  <button *ngIf=\"selectedOption\" (click)=\"clearSelection()\" class=\"clear-button\">\n  <i class=\"fa fa-close\" style=\"font-size:16px\"></i>\n  </button>\n</div>\n\n",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -486,15 +486,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 2923,
-                            "end": 2936,
+                            "pos": 2921,
+                            "end": 2934,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 2924,
-                                "end": 2932,
+                                "pos": 2922,
+                                "end": 2930,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -506,7 +506,7 @@
                     ],
                     "rawdescription": "\n\nButton contents\n\n",
                     "description": "<p>Button contents</p>\n",
-                    "line": 122,
+                    "line": 121,
                     "type": "string",
                     "decorators": []
                 },
@@ -515,7 +515,7 @@
                     "defaultValue": "[]",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 86,
+                    "line": 85,
                     "type": "any",
                     "decorators": []
                 },
@@ -523,7 +523,7 @@
                     "name": "selectedOption",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 84,
+                    "line": 83,
                     "type": "string | undefined",
                     "decorators": []
                 },
@@ -534,7 +534,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\n\nHow large should the button be?\n",
                     "description": "<p>How large should the button be?</p>\n",
-                    "line": 114,
+                    "line": 113,
                     "type": "\"small\" | \"medium\" | \"large\"",
                     "decorators": []
                 }
@@ -545,7 +545,7 @@
                     "defaultValue": "new EventEmitter<void>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 82,
+                    "line": 81,
                     "type": "EventEmitter"
                 }
             ],
@@ -557,7 +557,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 89,
+                    "line": 88,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -570,7 +570,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 77,
+                    "line": 76,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -587,7 +587,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 107,
+                    "line": 106,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -608,7 +608,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 95,
+                    "line": 94,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -628,7 +628,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 101,
+                    "line": 100,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "modifierKind": [
@@ -656,7 +656,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';\n\n// <option><input type=\"text\" name=\"fname\"\n//     placeholder=\"Select here ...\"></option>\n\n@Component({\n  selector: 'ztc-dropdown',\n  template: `\n  <link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n  <!-- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css\" integrity=\"sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd\" crossorigin=\"anonymous\"> -->\n  <!-- <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\"> -->\n  <h4>{{label}}</h4>\n  <div class=\"dropdown-container col-md-1\">\n  \n  <select  \n     [(ngModel)]=\"selectedOption\" \n     (ngModelChange)=\"onModelChange($event)\"\n     [ngClass]=\"size\"\n     >\n    <option value=\"empty\"></option>\n    <option *ngFor=\"let option of options\" [value]=\"option\">{{option}}</option>\n  </select>\n  <button *ngIf=\"selectedOption\" (click)=\"clearSelection()\" class=\"clear-button\">\n  <i class=\"fa fa-close\" style=\"font-size:16px\"></i>\n  </button>\n</div>\n\n  `,\n  styles: [`\n  .dropdown-container {\n    display: flex;\n    align-items: center;\n  \n  }\n  select {\n    background: none;\n    margin-right: 10px;\n    height :35px;\n    width : 100%;\n    border: 1px solid #c9c992;\n    \n  }\n  .clear-button {\n    background: none;\n    border: none;\n    display: flex;\n    right :50px;\n    padding: 3px 5px 3px 0;\n    cursor: pointer;\n    color: #666;\n    font-size: inherit;\n    margin-left: -50px;\n  }\n  .fa fa-close{\n    display: flex;\n    right :50px;\n  }\n\n  .select :focus{\n    border: 1px solid green;\n  }\n  .medium{\n    width:50%;\n  }\n  .small{\n    width:40%;\n  }\n  .large{\n    width:100%;\n  }\n  \n`]\n\n})\nexport class DropDownComponent implements OnInit {\n  ngOnInit(): void {\n   // this.setDefaultValue();\n  }\n\n  //value = 'Clear me';\n  @Output() onSelectionChange = new EventEmitter<void>();\n\n  @Input() selectedOption:string | undefined;\n\n  @Input() options: any = [];\n\n  //clear dropdown\n  public clearSelection() {\n    this.selectedOption = '';\n    this.onSelectionChange.emit();\n  }\n\n  //set initial value\n  public setDefaultValue() {\n    this.selectedOption = this.options[1];\n    this.onSelectionChange.emit(this.selectedOption as any);\n  }\n\n  //set value\n  public setValue(data: any) {\n    this.selectedOption = this.options[data];\n    this.onSelectionChange.emit(this.selectedOption as any);\n  }\n\n  //on value change\n  onModelChange(evt: any) {\n    this.onSelectionChange.emit(evt);\n  }\n  /**\n   * How large should the button be?\n   */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Authorization Type';\n  // @Output()\n  // onClick = new EventEmitter<Event>();\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';\n\n// <option><input type=\"text\" name=\"fname\"\n//     placeholder=\"Select here ...\"></option>\n\n@Component({\n  selector: 'ztc-dropdown',\n  template: `\n  <link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n  <!-- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css\" integrity=\"sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd\" crossorigin=\"anonymous\"> -->\n  <!-- <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\"> -->\n  <h4>{{label}}</h4>\n  <div class=\"dropdown-container col-md-12\">\n  <select  \n     [(ngModel)]=\"selectedOption\" \n     (ngModelChange)=\"onModelChange($event)\"\n     [ngClass]=\"size\"\n     >\n    <option value=\"empty\"></option>\n    <option *ngFor=\"let option of options\" [value]=\"option\">{{option}}</option>\n  </select>\n  <button *ngIf=\"selectedOption\" (click)=\"clearSelection()\" class=\"clear-button\">\n  <i class=\"fa fa-close\" style=\"font-size:16px\"></i>\n  </button>\n</div>\n\n  `,\n  styles: [`\n  .dropdown-container {\n    display: flex;\n    align-items: center;\n  \n  }\n  select {\n    background: none;\n    margin-right: 10px;\n    height :35px;\n    width : 100%;\n    border: 1px solid #c9c992;\n    \n  }\n  .clear-button {\n    background: none;\n    border: none;\n    display: flex;\n    right :50px;\n    padding: 3px 5px 3px 0;\n    cursor: pointer;\n    color: #666;\n    font-size: inherit;\n    margin-left: -50px;\n  }\n  .fa fa-close{\n    display: flex;\n    right :50px;\n  }\n\n  .select :focus{\n    border: 1px solid green;\n  }\n  .medium{\n    width:50%;\n  }\n  .small{\n    width:40%;\n  }\n  .large{\n    width:100%;\n  }\n  \n`]\n\n})\nexport class DropDownComponent implements OnInit {\n  ngOnInit(): void {\n   // this.setDefaultValue();\n  }\n\n  //value = 'Clear me';\n  @Output() onSelectionChange = new EventEmitter<void>();\n\n  @Input() selectedOption:string | undefined;\n\n  @Input() options: any = [];\n\n  //clear dropdown\n  public clearSelection() {\n    this.selectedOption = '';\n    this.onSelectionChange.emit();\n  }\n\n  //set initial value\n  public setDefaultValue() {\n    this.selectedOption = this.options[1];\n    this.onSelectionChange.emit(this.selectedOption as any);\n  }\n\n  //set value\n  public setValue(data: any) {\n    this.selectedOption = this.options[data];\n    this.onSelectionChange.emit(this.selectedOption as any);\n  }\n\n  //on value change\n  onModelChange(evt: any) {\n    this.onSelectionChange.emit(evt);\n  }\n  /**\n   * How large should the button be?\n   */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Authorization Type';\n  // @Output()\n  // onClick = new EventEmitter<Event>();\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "\n  .dropdown-container {\n    display: flex;\n    align-items: center;\n  \n  }\n  select {\n    background: none;\n    margin-right: 10px;\n    height :35px;\n    width : 100%;\n    border: 1px solid #c9c992;\n    \n  }\n  .clear-button {\n    background: none;\n    border: none;\n    display: flex;\n    right :50px;\n    padding: 3px 5px 3px 0;\n    cursor: pointer;\n    color: #666;\n    font-size: inherit;\n    margin-left: -50px;\n  }\n  .fa fa-close{\n    display: flex;\n    right :50px;\n  }\n\n  .select :focus{\n    border: 1px solid green;\n  }\n  .medium{\n    width:50%;\n  }\n  .small{\n    width:40%;\n  }\n  .large{\n    width:100%;\n  }\n  \n\n",
@@ -946,13 +946,13 @@
     "modules": [
         {
             "name": "PatternLibModule",
-            "id": "module-PatternLibModule-7914af2eccd5d6d06c7c49bda855ae54f12eb15699c71c49f34765b062b908bdde72f57e47c74777633fc2a2f2ae523301530e2bfc8fdccb934d4a5ecd13148c",
+            "id": "module-PatternLibModule-cf5b686fee6a590177bb195533470fc553901932fd33b74062c1150e3251351a587f35f6bd4a843375c4b5b9ca9c369609a4a0764815b793ad994e7ead5515a4",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "projects/pattern-lib/src/lib/pattern-lib.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { PatternLibComponent } from './pattern-lib.component';\nimport { ButtonComponent } from './button/button.component';\nimport { CommonModule } from '@angular/common';\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\nimport { DropDownComponent } from './dropdown/dropdown.component';\nimport { CheckboxComponent } from './checkbox/checkbox.component';\nimport { SplitbuttonComponent } from './splitbutton/splitbutton.component';\n\n\n@NgModule({\n  declarations: [\n    PatternLibComponent,\n    ButtonComponent,DropDownComponent, CheckboxComponent, SplitbuttonComponent\n  ],\n  imports: [\n    CommonModule,FormsModule,ReactiveFormsModule,\n  ],\n  exports: [\n    PatternLibComponent,ButtonComponent,DropDownComponent,CheckboxComponent\n  ]\n})\nexport class PatternLibModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { PatternLibComponent } from './pattern-lib.component';\nimport { ButtonComponent } from './button/button.component';\nimport { CommonModule } from '@angular/common';\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\nimport { DropDownComponent } from './dropdown/dropdown.component';\nimport { CheckboxComponent } from './checkbox/checkbox.component';\nimport { SplitbuttonComponent } from './splitbutton/splitbutton.component';\n\n\n@NgModule({\n  declarations: [\n    PatternLibComponent,\n    ButtonComponent,DropDownComponent, CheckboxComponent, SplitbuttonComponent\n  ],\n  imports: [\n    CommonModule,FormsModule,ReactiveFormsModule,\n  ],\n  exports: [\n    PatternLibComponent,ButtonComponent,DropDownComponent,CheckboxComponent,SplitbuttonComponent\n  ]\n})\nexport class PatternLibModule { }\n",
             "children": [
                 {
                     "type": "providers",
@@ -996,6 +996,9 @@
                         },
                         {
                             "name": "PatternLibComponent"
+                        },
+                        {
+                            "name": "SplitbuttonComponent"
                         }
                     ]
                 },
@@ -1150,7 +1153,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<SplitbuttonComponent>",
-                "defaultValue": "{\n  title: 'Components/ButtonWithIcons',\n  decorators: [],\n  component: SplitbuttonComponent,\n  parameters: {\n    docs: {\n      inlineStories: true, // This can be set to true or false based on your preference\n    },\n  },\n  tags: ['autodocs'],\n  render: (args: SplitbuttonComponent) => ({\n    props: {\n      ...args,\n    },\n  }),\n}"
+                "defaultValue": "{\n  title: 'Components/ButtonWithIcons',\n  decorators: [],\n  component: SplitbuttonComponent,\n  parameters: {\n    docs: {\n      inlineStories: true,  // This can be set to true or false based on your preference\n    },\n  },\n  tags: ['autodocs'],\n  render: (args: SplitbuttonComponent) => ({\n    props: {\n      ...args,\n    },\n  }),\n}"
             },
             {
                 "name": "preview",
@@ -1449,7 +1452,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<SplitbuttonComponent>",
-                    "defaultValue": "{\n  title: 'Components/ButtonWithIcons',\n  decorators: [],\n  component: SplitbuttonComponent,\n  parameters: {\n    docs: {\n      inlineStories: true, // This can be set to true or false based on your preference\n    },\n  },\n  tags: ['autodocs'],\n  render: (args: SplitbuttonComponent) => ({\n    props: {\n      ...args,\n    },\n  }),\n}"
+                    "defaultValue": "{\n  title: 'Components/ButtonWithIcons',\n  decorators: [],\n  component: SplitbuttonComponent,\n  parameters: {\n    docs: {\n      inlineStories: true,  // This can be set to true or false based on your preference\n    },\n  },\n  tags: ['autodocs'],\n  render: (args: SplitbuttonComponent) => ({\n    props: {\n      ...args,\n    },\n  }),\n}"
                 },
                 {
                     "name": "PrimaryButton",

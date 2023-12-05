@@ -11,8 +11,7 @@ import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous"> -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <h4>{{label}}</h4>
-  <div class="dropdown-container col-md-1">
-  
+  <div class="dropdown-container col-md-12">
   <select  
      [(ngModel)]="selectedOption" 
      (ngModelChange)="onModelChange($event)"
