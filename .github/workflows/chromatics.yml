@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build Storybook
-        run: npm run pattern-lib:build-storybook
+        run: npm run build --configuration production
 
   chromatic:
     runs-on: ubuntu-latest
